@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ison Studio — Sitios web hechos a medida</title>
+  <meta name="description"
+    content="Agencia de desarrollo web. Diseñamos y desarrollamos landings, e-commerce y sitios corporativos modernos, rápidos y responsive." />
+  <meta property="og:title" content="Ison Studio — Sitios web hechos a medida" />
+  <meta property="og:description" content="Diseño y desarrollo web moderno con carácter y rendimiento." />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500&family=Manrope:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="Style.css" />
+</head>
+
+<body>
+
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="#inicio" class="brand">
+        <span class="brand-mark">i</span>
+        <span class="brand-name">Ison Studio</span>
+      </a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#inicio">Inicio</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#beneficios">Beneficios</a>
+        <a href="#planes">Planes</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+      <a href="#contacto" class="btn btn-primary btn-sm nav-cta">Empezar proyecto</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <section id="inicio" class="hero container">
+      <div class="hero-grid">
+        <div class="hero-main">
+          <p class="eyebrow">Agencia de desarrollo web</p>
+          <h1>Sitios web hechos <em>a medida</em>, con carácter y rendimiento.</h1>
+        </div>
+        <div class="hero-side">
+          <p class="lead">Cremos sitios web que reflejan la esencia de tu negocio y elevan su presencia digital.</p>
+          <div class="hero-cta">
+            <a href="#proyectos" class="btn btn-primary">Ver proyectos →</a>
+            <a href="#contacto" class="btn btn-outline">Contactar</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="proyectos" class="projects">
+      <div class="container projects-head">
+        <div>
+          <p class="eyebrow eyebrow-light">Proyectos</p>
+          <h2>Sitios web recientes</h2>
+        </div>
+        <p class="projects-desc"></p>
+      </div>
+      <div class="carousel" data-carousel data-basis="42">
+        <div class="carousel-track" data-track>
+          <article class="project-card">
+            <div class="project-img"><img src="assets/E-commerce.jpg" alt="Tienda online minimalista" loading="lazy" />
+            </div>
+            <div class="project-body">
+              <div>
+                <p class="tag">E-commerce</p>
+                <h3>Tienda online minimalista</h3>
+              </div><span class="arrow">→</span>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-img"><img src="assets/Producto%20digital.jpg" alt="Landing para SaaS" loading="lazy" />
+            </div>
+            <div class="project-body">
+              <div>
+                <p class="tag">Producto digital</p>
+                <h3>Landing para SaaS</h3>
+              </div><span class="arrow">→</span>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-img"><img src="assets/portafolio.jpg" alt="Portfolio editorial" loading="lazy" /></div>
+            <div class="project-body">
+              <div>
+                <p class="tag">Portfolio</p>
+                <h3>Portfolio editorial</h3>
+              </div><span class="arrow">→</span>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-img"><img src="assets/hosteleria.jpg" alt="Reservas para restaurante" loading="lazy" />
+            </div>
+            <div class="project-body">
+              <div>
+                <p class="tag">Hostelería</p>
+                <h3>Reservas para restaurante</h3>
+              </div><span class="arrow">→</span>
+            </div>
+          </article>
+        </div>
+        <div class="container carousel-controls">
+          <button class="carousel-btn" data-prev aria-label="Anterior">←</button>
+          <button class="carousel-btn" data-next aria-label="Siguiente">→</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="beneficios" class="services container">
+      <div class="services-head">
+        <div>
+          <p class="eyebrow">BENEFICIOS</p>
+          <h2>Tu negocio trabajando para vos, las 24 horas del día.</h2>
+        </div>
+        <p class="services-desc">Más que una simple carta de presentación, una página web propia es tu herramienta de
+          ventas más potente para transmitir profesionalismo y escalar tu negocio.</p>
+      </div>
+      <div class="carousel carousel-light" data-carousel data-basis="25">
+        <div class="carousel-track" data-track>
+          <article class="service-card">
+            <div class="ico"><svg viewBox="0 0 28 28" width="28" height="28" xmlns="http://www.w3.org/2000/svg">
+                <rect x="4" y="6" width="20" height="16" rx="3" stroke="currentColor" fill="none" stroke-width="2" />
+              </svg></div>
+            <h3>Autoridad de marca</h3>
+            <p>Un negocio con dominio propio proyecta profesionalismo inmediato y destaca automáticamente frente a la
+              competencia que solo usa redes sociales.</p>
+          </article>
+          <article class="service-card">
+            <div class="ico"><svg viewBox="0 0 28 28" width="28" height="28" xmlns="http://www.w3.org/2000/svg">
+                <polygon points="14,4 24,14 14,24 4,14" stroke="currentColor" fill="none" stroke-width="2" />
+              </svg></div>
+            <h3>Siempre abierto</h3>
+            <p>Tu información, servicios y canales de contacto siguen trabajando y captando clientes potenciales incluso
+              cuando no estás disponible.</p>
+          </article>
+          <article class="service-card">
+            <div class="ico"><svg viewBox="0 0 28 28" width="28" height="28" xmlns="http://www.w3.org/2000/svg">
+                <rect x="5" y="8" width="18" height="12" rx="4" stroke="currentColor" fill="none" stroke-width="2" />
+                <line x1="9" y1="12" x2="19" y2="12" stroke="currentColor" stroke-width="2" />
+              </svg></div>
+            <h3>Visible en Google</h3>
+            <p>Rompe las barreras locales. Permite que personas que buscan exactamente lo que ofreces te encuentren de
+              forma orgánica en los motores de búsqueda.</p>
+          </article>
+          <article class="service-card">
+            <div class="ico"><svg viewBox="0 0 28 28" width="28" height="28" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="14" cy="14" r="9" stroke="currentColor" fill="none" stroke-width="2" />
+              </svg></div>
+            <h3>Tu propio ecosistema</h3>
+            <p>A diferencia de las redes sociales (donde dependes de un algoritmo), tu web es un activo propio donde vos
+              decidís las reglas, el diseño y la experiencia de usuario.</p>
+          </article>
+        </div>
+        <div class="carousel-controls">
+          <button class="carousel-btn" data-prev aria-label="Anterior">←</button>
+          <button class="carousel-btn" data-next aria-label="Siguiente">→</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="planes" class="plans">
+      <div class="container">
+        <div class="section-head-center">
+          <p class="eyebrow">Planes</p>
+          <h2>Precios claros, sin sorpresas.</h2>
+        </div>
+        <div class="plans-grid">
+          <div class="plan">
+            <h3>Landing Page</h3>
+            <p class="plan-desc">Una presencia digital clara y directa.</p>
+            <p class="price">100K ARS</p>
+            <ul>
+              <li>Una sola página</li>
+              <li>Hasta 3 secciones</li>
+              <li>Diseño responsive</li>
+              <li>Animaciones y transiciones</li>
+              <li>Botón de WhatsApp</li>
+              <li>Formulario de contacto</li>
+              <li>Entrega rápida</li>
+            </ul>
+            <a href="#contacto" class="btn btn-primary btn-block" data-plan="Landing Page">Elegir Landing Page</a>
+          </div>
+          <div class="plan plan-featured">
+            <h3>Landing Page Pro</h3>
+            <p class="plan-desc">Más espacio para mostrar, convencer y convertir.</p>
+            <p class="price">200K ARS</p>
+            <ul>
+              <li>Una sola página</li>
+              <li>Hasta 5 secciones</li>
+              <li>Diseño responsive</li>
+              <li>Animaciones y transiciones</li>
+              <li>Botón de WhatsApp</li>
+              <li>Formulario de contacto</li>
+              <li>Secciones personalizadas</li>
+              <li>Optimización para conversión</li>
+              <li>Entrega rápida</li>
+            </ul>
+            <a href="#contacto" class="btn btn-secondary btn-block" data-plan="Landing Page Pro">Elegir Landing Page
+              Pro</a>
+          </div>
+          <div class="plan">
+            <h3>Crecimiento Corporativo</h3>
+            <p class="plan-desc">Una presencia digital completa para hacer crecer tu empresa.</p>
+            <p class="price">300K ARS</p>
+            <ul>
+              <li>Sitio web multipágina</li>
+              <li>Sin límite de secciones</li>
+              <li>Diseño responsive</li>
+              <li>Diseño totalmente personalizado</li>
+              <li>Animaciones y transiciones</li>
+              <li>Formularios de contacto</li>
+              <li>Integración con WhatsApp</li>
+              <li>Estructura escalable</li>
+              <li>Optimización de experiencia</li>
+              <li>Desarrollo pensado para empresas</li>
+            </ul>
+            <a href="#contacto" class="btn btn-primary btn-block" data-plan="Crecimiento Corporativo">Elegir Crecimiento
+              Corporativo</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto" class="contact container">
+      <div class="contact-grid">
+        <div>
+          <p class="eyebrow">Contacto</p>
+          <h2>Cuéntanos tu proyecto.</h2>
+          <p class="lead">Respondemos en menos de 10 horas. Sin compromiso, sin plantillas: hablamos de tu idea y de
+            cómo llevarla a cabo.</p>
+          <ul class="contact-list">
+            <li>
+              <a href="mailto:isonstudioweb@gmail.com" class="contact-item">
+                <img src="assets/gmail-icon.svg" alt="Gmail" width="20" height="20" />
+                isonstudioweb@gmail.com
+              </a>
+            </li>
+            <li>
+              <a href="https://wa.me/5491126532998" target="_blank" rel="noopener noreferrer" class="contact-item">
+                <svg viewBox="0 0 32 32" width="20" height="20">
+                  <path fill="#25D366"
+                    d="M16.001 3C9.373 3 4 8.373 4 15c0 2.386.7 4.607 1.908 6.475L4 29l7.727-1.877A11.94 11.94 0 0 0 16.001 27C22.63 27 28 21.627 28 15S22.63 3 16.001 3z" />
+                  <path fill="#fff"
+                    d="M21.611 17.86c-.297-.148-1.758-.867-2.03-.966-.273-.099-.472-.148-.671.148-.198.297-.767.966-.94 1.164-.173.198-.347.223-.644.075-.297-.149-1.253-.462-2.386-1.472-.882-.787-1.478-1.759-1.651-2.056-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.496.099-.198.05-.372-.025-.52-.074-.149-.671-1.616-.919-2.213-.242-.582-.489-.504-.671-.513l-.571-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.478 0 1.462 1.065 2.874 1.213 3.072.149.198 2.096 3.2 5.08 4.488.71.306 1.263.489 1.694.626.712.227 1.36.195 1.873.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.288.173-1.412-.074-.124-.272-.198-.57-.347z" />
+                </svg>
+                +54 9 11 2653-2998
+              </a>
+            </li>
+            <li>
+              <a href="https://instagram.com/isonstudioweb" target="_blank" rel="noopener noreferrer"
+                class="contact-item">
+                <svg viewBox="0 0 24 24" width="20" height="20">
+                  <defs>
+                    <radialGradient id="igGradient" cx="30%" cy="107%" r="150%">
+                      <stop offset="0%" stop-color="#fdf497" />
+                      <stop offset="5%" stop-color="#fdf497" />
+                      <stop offset="45%" stop-color="#fd5949" />
+                      <stop offset="60%" stop-color="#d6249f" />
+                      <stop offset="90%" stop-color="#285AEB" />
+                    </radialGradient>
+                  </defs>
+                  <rect x="2" y="2" width="20" height="20" rx="5" fill="url(#igGradient)" />
+                  <circle cx="12" cy="12" r="4.2" fill="none" stroke="#fff" stroke-width="1.6" />
+                  <circle cx="17.2" cy="6.8" r="1.1" fill="#fff" />
+                </svg>
+                @isonstudioweb
+              </a>
+            </li>
+          </ul>
+        </div>
+        <form class="contact-form" id="contactForm" novalidate>
+          <p class="plan-selected" id="planSelected" hidden>
+            Plan seleccionado: <strong id="planSelectedName"></strong>
+            <button type="button" id="planClear" aria-label="Quitar selección">✕</button>
+          </p>
+          <input type="hidden" id="plan" name="plan" value="" />
+          <div class="row-2">
+            <div class="field"><label for="nombre">Nombre</label><input id="nombre" name="nombre" required /></div>
+            <div class="field"><label for="apellido">Apellido</label><input id="apellido" name="apellido" /></div>
+          </div>
+          <div class="field"><label for="whatsapp">WHATSAPP</label><input id="whatsapp" name="whatsapp" type="tel"
+              inputmode="numeric" maxlength="20" pattern="[0-9]{1,20}" placeholder="Ej: 5491112345678" required /></div>
+          <div class="field"><label for="mensaje">Tus objetivos / Mensaje</label><textarea id="mensaje" name="mensaje"
+              rows="5" placeholder="Cuéntanos qué tienes en mente..."></textarea></div>
+          <button type="submit" class="btn btn-primary btn-block">Enviar formulario→</button>
+          <p class="form-msg" id="formMsg" role="status"></p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <p>© <span id="year"></span> Ison Studio. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="JavaScript.js"></script>
+
+  <a class="whatsapp-float" href="https://wa.me/5491126532998" target="_blank" rel="noopener noreferrer"
+    aria-label="Contactar por WhatsApp">
+    <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+      <path fill="#fff"
+        d="M16.001 3C9.373 3 4 8.373 4 15c0 2.386.7 4.607 1.908 6.475L4 29l7.727-1.877A11.94 11.94 0 0 0 16.001 27C22.63 27 28 21.627 28 15S22.63 3 16.001 3zm0 21.75a9.7 9.7 0 0 1-4.95-1.354l-.355-.21-4.59 1.115 1.227-4.474-.232-.366A9.72 9.72 0 0 1 5.75 15c0-5.652 4.6-10.25 10.251-10.25S26.25 9.348 26.25 15 21.652 24.75 16.001 24.75z" />
+      <path fill="#fff"
+        d="M21.611 17.86c-.297-.148-1.758-.867-2.03-.966-.273-.099-.472-.148-.671.148-.198.297-.767.966-.94 1.164-.173.198-.347.223-.644.075-.297-.149-1.253-.462-2.386-1.472-.882-.787-1.478-1.759-1.651-2.056-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.496.099-.198.05-.372-.025-.52-.074-.149-.671-1.616-.919-2.213-.242-.582-.489-.504-.671-.513l-.571-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.478 0 1.462 1.065 2.874 1.213 3.072.149.198 2.096 3.2 5.08 4.488.71.306 1.263.489 1.694.626.712.227 1.36.195 1.873.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.288.173-1.412-.074-.124-.272-.198-.57-.347z" />
+    </svg>
+  </a>
+</body>
+
+</html>
